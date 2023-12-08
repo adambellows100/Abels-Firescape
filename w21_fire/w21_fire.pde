@@ -1,13 +1,13 @@
 //Driver variables
 boolean burning = false;
-int grassDensity = 75;
+int grassDensity = 99;
 
 LandGrid grid;
 
 void setup() {
-  size(600, 600);
+  size(800, 800);
   frameRate(10);
-  grid = new LandGrid(20,20);
+  grid = new LandGrid(200,200);
   grid.setupLand(grassDensity);
   grid.showLand();
 }//setup
